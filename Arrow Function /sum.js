@@ -1,12 +1,15 @@
-function sum (a,b){   // This is actullay normal function . 
+function sum (a,b){  // This is actullay normal function .
+
     return a + b;
+
 }
 
-sumwitharrow = (a,b)=>{    // This is actullay arrow function . 
+sumwitharrow = (a,b)=>{ // This is actullay arrow function .
+
     return a + b ;
 }
 
-sumwitharrow2 = (a,b)=>a+b;  // without return keyword . 
+sumwitharrow2 = (a,b)=>a+b; // without return keyword.
 
 let hello =()=>"Hello World";  //defult 
 
@@ -21,5 +24,5 @@ console.log(sumwitharrow2(12,33));
 
 console.log(hello());
 
-console.log(Hello())
+Hello();
 
